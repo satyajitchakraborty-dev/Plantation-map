@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plantation Form</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css"/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h3>Plantation Form</h3>
+
+<select id="district">
+<option value="">Select District</option>
+<option>Jalpaiguri</option>
+<option>APDW</option>
+<option>APDE</option>
+<option>Coochbehar</option>
+</select>
+
+<input type="text" id="lpc" placeholder="Enter LPC">
+
+<input type="file" id="polygonUpload" accept=".kml">
+
+<div id="map"></div>
+
+<button onclick="submitToDrive()">Submit</button>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-draw/dist/leaflet.draw.js"></script>
+<script src="https://unpkg.com/togeojson@0.16.0"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

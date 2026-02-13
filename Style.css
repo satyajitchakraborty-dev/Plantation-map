@@ -1,0 +1,12 @@
+body { font-family: Arial; margin:10px; }
+select, input, button {
+  width:100%;
+  padding:12px;
+  margin-bottom:10px;
+  font-size:16px;
+}
+#map { height:60vh; }
+.leaflet-draw-toolbar a {
+  width:40px !important;
+  height:40px !important;
+}
